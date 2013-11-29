@@ -37,7 +37,7 @@
           <disableCastChecking>true</disableCastChecking>
           <disableClassMetadata>true</disableClassMetadata>
           <extraJvmArgs>-Xmx1200M -Xss1024k -XX:MaxPermSize=256M</extraJvmArgs>
-          <module>de.latlon.tldageoeditor3.Application</module>
+          <module>org.xplan.manager.web.XPlanMgrWeb</module>
           <runTarget>index.html</runTarget>
           <hostedWebapp>${project.build.directory}/${project.build.finalName}</hostedWebapp>
           <copyWebapp>true</copyWebapp>
@@ -88,6 +88,10 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+		</dependency>	
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
 		</dependency>
 	</dependencies>
 </project>
